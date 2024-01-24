@@ -96,7 +96,7 @@ export default function Home() {
       </section>
       <Sponsors />
       <Features />
-      <Pricing />
+      {/*<Pricing />*/}
       <Footer />
     </div>
   );

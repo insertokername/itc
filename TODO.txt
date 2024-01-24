@@ -1,0 +1,11 @@
+header
+    logo sizing
+    nav buttons
+    fix spacing between buttons
+font itc
+hero
+find a way to display a grid in tailwind for the under sections
+
+site background (waves)
+
+change seo stuff
