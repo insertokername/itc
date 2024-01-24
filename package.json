@@ -1,5 +1,5 @@
 {
-    "name": "plutonium",
+    "name": "site-interact",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -20,6 +20,6 @@
         "eslint": "^7.28.0",
         "eslint-config-next": "^11.0.0",
         "postcss": "^8.1.10",
-        "tailwindcss": "^2.1.1"
+        "tailwindcss": "^3.4.1"
     }
 }
