@@ -11,30 +11,30 @@ export default function Home() {
   return (
     <div className="bg-white">
       <NextSeo
-        title="Plutonium"
-        description="Plutonium – where darkness meets the web."
+        title="Interact Oradea"
+        description="Interact Oradea – where darkness meets the web."
         canonical="https://plutonium.vercel.app/"
         openGraph={{
           url: "https://plutonium.vercel.app/",
-          title: "Plutonium",
+          title: "Interact Oradea",
           description: "Plutonium – where darkness meets the web.",
           images: [
             {
               url: "blob:https://og-playground.vercel.app/8baff750-c782-4a04-b198-7ee3dd1e1974",
             },
           ],
-          site_name: "Plutonium",
-        }}
-        twitter={{
-          handle: "@saurishhh",
-          site: "https://plutonium.vercel.app/",
-          cardType: "summary_large_image",
+          site_name: "Interact Oradea",
         }}
       />
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <div
+        className="w-full h-screen bg-cover bg-center"
+        style={{ backgroundImage: "url(hero-bg.png)" }}
+      ></div>
+
       <section className="relative">
         <div className="px-4 pt-10 mx-auto max-w-7xl md:pt-16">
           <div className="w-full pb-5 mx-auto text-center md:w-11/12">
@@ -98,6 +98,6 @@ export default function Home() {
       <Features />
       {/*<Pricing />*/}
       <Footer />
-    </div>
+    </div >
   );
 }
