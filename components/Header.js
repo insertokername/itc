@@ -18,7 +18,7 @@ export default function Header() {
         <div className="flex flex-row items-center justify-between p-2 md:p-1">
           <a href="/kys">
             <img src="logo.png" width={340}/>
-            {/* <a className="mb-4 text-2xl font-medium text-black transition duration-300 hover:text-gray-300 dark:text-gray-300 dark:hover:text-white md:mb-0">
+            {/* <a className="mb-4 text-2xl font-medium text-black transition duration-300 hover:text-gray-300 md:mb-0">
               PLUTONIUM
             </a> */}
           </a>
