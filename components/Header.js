@@ -1,59 +1,20 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
 
 export default function Header() {
-  const refContainer = useRef();
-  const [height, setHeight] = useState(0);
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
-  const [nav_offset, setNavOffset, preNavOffset] = useState(0);
+  const { theme, setTheme } = useTheme();
 
   // When mounted on client, now we can show the UI
   useEffect(() => setMounted(true), []);
 
-  const [delta, setDelta] = useState(0);
-  let scroll_ammount = 0;
-
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      let temp_delta = window.scrollY - scroll_ammount;
-      setDelta(temp_delta);
-      scroll_ammount = window.scrollY;
-
-      if (refContainer.current) {
-        let prev_height = 0;
-        setHeight(preHeight => {
-          prev_height = preHeight;
-          return refContainer.current.offsetHeight;
-        });
-
-        setNavOffset(function (prevNavOffset) {
-          let next = prevNavOffset + temp_delta;
-          //console.log("next:", next, prev_height);
-          if (-next > prev_height) {
-            //console.log("returning: ", -prev_height);
-            return -prev_height;
-          }
-          else if (next > prev_height) {
-            //console.log("returning: ", prev_height);
-            return prev_height;
-          }
-          else {
-            //console.log("returning:", next);
-            return next;
-          }
-        });
-      }
-    }, 10);
-    return () => clearInterval(interval);
-  }, []);
   if (!mounted) return null;
 
   return (
-    <header style={{ transform: `translateY(-${nav_offset}px)` }} className={`w-full sticky-nav transform`} >
-      <div ref={refContainer} className="grid grid-cols-1 justify-center max-w-xl p-2.5 mx-auto">{/*md:flex-row*/}
+    <header className="w-full sticky-nav">
+      <div className="grid grid-cols-1 justify-center max-w-xl p-2.5 mx-auto">{/*md:flex-row*/}
         <a href="/" >
           <img src="logo.png" width={250} className="mx-auto" />
         </a>

@@ -17,8 +17,7 @@ html {
   position: sticky;
   z-index: 50;
   top: 0;
-  background-color: #fefefe;
-  /* backdrop-filter: saturate(180%) blur(20px) !important; */
+  backdrop-filter: saturate(180%) blur(20px) !important;
   transition: background-color 0.1 ease-in-out !important;
 }
 
