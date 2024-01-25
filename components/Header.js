@@ -26,12 +26,13 @@ export default function Header() {
   }, [prevScrollpos]);
 
   const navbarStyle = {
-    transition: "all 0.5s",
+    zIndex: '100',
+    transition: "all 0.65s",
     transform: `translateY(${top}%)`,
   };
 
   return (
-    <header className={`fixed w-full`} style={navbarStyle}>
+    <header className="bg-white background-parallax-waves sticky-nav w-full " style={navbarStyle}>
       <div className="grid grid-cols-1 justify-center max-w-xl p-2.5 mx-auto">{/*md:flex-row*/}
         <a href="/" >
           <img src="logo.png" width={250} className="mx-auto" />

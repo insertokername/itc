@@ -34,7 +34,7 @@ export default function Home() {
         style={{ backgroundImage: "url(hero-bg.png)" }}
       ></div>
 
-      <section className="relative">
+      <section className="background-parallax-waves relative">
         <div className="px-4 pt-10 mx-auto max-w-7xl md:pt-16">
           <div className="w-full pb-5 mx-auto text-center md:w-11/12">
             <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 md:text-6xl">

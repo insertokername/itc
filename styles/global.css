@@ -21,6 +21,10 @@ html {
   transition: background-color 0.1 ease-in-out !important;
 }
 
+.background-parallax-waves{
+  @apply bg-waves-m bg-cover bg-fixed bg-no-repeat bg-center
+}
+
 body::-webkit-scrollbar {
   width: 0.75em;
 }
