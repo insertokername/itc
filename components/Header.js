@@ -4,16 +4,34 @@ import Link from "next/link";
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = useState(false);
-  const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const [prevScrollpos, setPrevScrollpos] = useState(0);
+  const [top, setTop] = useState(0);
 
-  // When mounted on client, now we can show the UI
-  useEffect(() => setMounted(true), []);
+  useEffect(() => {
+    if (typeof window != 'undefined') { // i hate javascript i hate javascript i hate javascript i hate javascript
+      const handleScroll = () => {
+        const currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          setTop(0);
+        } else {
+          setTop(-100);
+        }
+        setPrevScrollpos(currentScrollPos);
+      };
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }
+  }, [prevScrollpos]);
 
-  if (!mounted) return null;
+  const navbarStyle = {
+    transition: "all 0.5s",
+    transform: `translateY(${top}%)`,
+  };
 
   return (
-    <header className="w-full sticky-nav">
+    <header className={`fixed w-full`} style={navbarStyle}>
       <div className="grid grid-cols-1 justify-center max-w-xl p-2.5 mx-auto">{/*md:flex-row*/}
         <a href="/" >
           <img src="logo.png" width={250} className="mx-auto" />

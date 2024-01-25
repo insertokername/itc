@@ -5,7 +5,6 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Sponsors from "../components/Sponsors";
 import Features from "../components/Features";
-import Pricing from "../components/Pricing";
 
 export default function Home() {
   return (
