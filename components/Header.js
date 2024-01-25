@@ -1,11 +1,17 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
 
 export default function Header() {
+  const [height, setHeight] = useState(0)
+  const ref = useRef(null)
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [prevScrollpos, setPrevScrollpos] = useState(0);
   const [top, setTop] = useState(0);
+
+  useEffect(() => {
+    setHeight(ref.current.clientHeight)
+  })
 
   useEffect(() => {
     if (typeof window != 'undefined') { // i hate javascript i hate javascript i hate javascript i hate javascript
@@ -13,7 +19,7 @@ export default function Header() {
         const currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
           setTop(0);
-        } else {
+        } else if (currentScrollPos > height) {
           setTop(-100);
         }
         setPrevScrollpos(currentScrollPos);
@@ -32,7 +38,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-white background-parallax-waves sticky-nav w-full " style={navbarStyle}>
+    <header ref={ref} className="bg-white background-parallax-waves sticky-nav w-full " style={navbarStyle}>
       <div className="grid grid-cols-1 justify-center max-w-xl p-2.5 mx-auto">{/*md:flex-row*/}
         <a href="/" >
           <img src="logo.png" width={250} className="mx-auto" />

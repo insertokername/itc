@@ -29,10 +29,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div
+      <section
         className="w-full h-screen bg-cover bg-center"
-        style={{ backgroundImage: "url(hero-bg.png)" }}
-      ></div>
+        style={{
+          backgroundImage: "url(hero-bg.png)",
+        }}
+      ></section>
 
       <section className="background-parallax-waves relative">
         <div className="px-4 pt-10 mx-auto max-w-7xl md:pt-16">

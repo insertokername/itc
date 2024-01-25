@@ -1,7 +1,6 @@
 backgrounds
     FIND BETTER WAVE WIDTH
 font itc
-set a minimum required scroll ammount for hiding header
 hero text
 mobile design for header
 change seo stuff
