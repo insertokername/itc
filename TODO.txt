@@ -1,6 +1,5 @@
 backgrounds
     FIND BETTER WAVE WIDTH
-min scroll not working on page reload 😭😭
 font itc
 hero text
 mobile design for header

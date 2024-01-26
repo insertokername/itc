@@ -22,7 +22,7 @@ html {
 }
 
 .background-parallax-waves{
-  @apply bg-waves-m bg-cover bg-fixed bg-no-repeat bg-center
+  @apply bg-waves-xl bg-cover bg-fixed bg-no-repeat bg-center
 }
 
 body::-webkit-scrollbar {
