@@ -5,7 +5,6 @@ import Link from "next/link";
 export default function Header() {
   const [height, setHeight] = useState(0)
   const ref = useRef(null)
-  const [navbarOpen, setNavbarOpen] = useState(false);
   const [prevScrollpos, setPrevScrollpos] = useState(0);
   const [top, setTop] = useState(0);
 
@@ -19,7 +18,7 @@ export default function Header() {
         const currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
           setTop(0);
-        } else if (currentScrollPos > height) {
+        } else if (currentScrollPos >= height && height != 0) {
           setTop(-100);
         }
         setPrevScrollpos(currentScrollPos);
@@ -33,7 +32,7 @@ export default function Header() {
 
   const navbarStyle = {
     zIndex: '100',
-    transition: "all 0.65s",
+    transition: "all 0.5s",
     transform: `translateY(${top}%)`,
   };
 
