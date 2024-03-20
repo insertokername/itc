@@ -8,7 +8,7 @@ import Features from "../components/Features";
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className="background-periodic">
       <NextSeo
         title="Interact Oradea"
         description="Interact Oradea – where darkness meets the web."
@@ -28,7 +28,9 @@ export default function Home() {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Header />
+      
       <section
         className="w-full h-screen bg-cover bg-center"
         style={{
@@ -36,7 +38,7 @@ export default function Home() {
         }}
       ></section>
 
-      <section className="background-parallax-waves relative">
+      <section className="relative">
         <div className="px-4 pt-10 mx-auto max-w-7xl md:pt-16">
           <div className="w-full pb-5 mx-auto text-center md:w-11/12">
             <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 md:text-6xl">

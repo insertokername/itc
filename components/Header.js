@@ -4,6 +4,7 @@ import Link from "next/link";
 
 export default function Header() {
   const [height, setHeight] = useState(0)
+  const [shoudBlur, setShoudBlur] = useState(false)
   const ref = useRef(null)
   const [prevScrollpos, setPrevScrollpos] = useState(0);
   const [top, setTop] = useState(0);
@@ -18,9 +19,10 @@ export default function Header() {
         const currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
           setTop(0);
-        } else if (currentScrollPos >= height && height != 0) {
+        } else if (height != 0) {
           setTop(-100);
         }
+        setShoudBlur(currentScrollPos!=0);
         setPrevScrollpos(currentScrollPos);
       };
       window.addEventListener('scroll', handleScroll);
@@ -34,10 +36,11 @@ export default function Header() {
     zIndex: '100',
     transition: "all 0.5s",
     transform: `translateY(${top}%)`,
+    'backdrop-filter': `saturate(${shoudBlur ? 180 : 100}%) blur(${shoudBlur ? 20 : 0}px)`
   };
 
   return (
-    <header ref={ref} className="bg-white background-parallax-waves sticky-nav w-full " style={navbarStyle}>
+    <header ref={ref} className="sticky-nav w-full" style={navbarStyle}>
       <div className="grid grid-cols-1 justify-center max-w-xl p-2.5 mx-auto">{/*md:flex-row*/}
         <a href="/" >
           <img src="logo.png" width={250} className="mx-auto" />
