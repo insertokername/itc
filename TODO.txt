@@ -1,5 +1,5 @@
 backgrounds
-    FIND BETTER WAVE WIDTH
+    change wave color to deep blue
 font itc
 hero text
 mobile design for header

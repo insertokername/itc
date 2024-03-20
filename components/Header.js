@@ -11,18 +11,18 @@ export default function Header() {
 
   useEffect(() => {
     setHeight(ref.current.clientHeight)
+    setShoudBlur(window.scrollY > 0);
   })
 
   useEffect(() => {
     if (typeof window != 'undefined') { // i hate javascript i hate javascript i hate javascript i hate javascript
       const handleScroll = () => {
-        const currentScrollPos = window.pageYOffset;
+        const currentScrollPos = window.scrollY;
         if (prevScrollpos > currentScrollPos) {
           setTop(0);
-        } else if (height != 0) {
+        } else if (height > 0) {
           setTop(-100);
         }
-        setShoudBlur(currentScrollPos!=0);
         setPrevScrollpos(currentScrollPos);
       };
       window.addEventListener('scroll', handleScroll);
@@ -36,7 +36,7 @@ export default function Header() {
     zIndex: '100',
     transition: "all 0.5s",
     transform: `translateY(${top}%)`,
-    'backdrop-filter': `saturate(${shoudBlur ? 180 : 100}%) blur(${shoudBlur ? 20 : 0}px)`
+    'backdrop-filter': `blur(${shoudBlur ? 20 : 0}px)`
   };
 
   return (
