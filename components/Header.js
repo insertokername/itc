@@ -51,7 +51,7 @@ export default function Header() {
             "flex"
           }
         >
-          <div className="uppercase text-lg flex flex-wrap items-center justify-center pt-1 pl-2 ml-1 space-x-8 md:space-x-16 md:mx-auto md:pl-14">
+          <div className="uppercase text-lg flex flex-wrap place-items-center content-center justify-center pt-1 space-x-8">
             <a
               href="/"
               className="text-sky-900 font-black transition duration-300 hover:underline"
@@ -60,7 +60,7 @@ export default function Header() {
             </a>
             <a
               href="/about-us"
-              className="text-sky-900 font-black transition duration-300 hover:underline"
+              className="self-stretch text-sky-900 font-black transition duration-300 hover:underline"
             >
               about us
             </a>
