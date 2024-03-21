@@ -8,7 +8,7 @@ import Features from "../components/Features";
 
 export default function Home() {
   return (
-    <div className="background-periodic">
+    <div className="background-periodic text-black text-base md:text-xl">
       <NextSeo
         title="Interact Oradea"
         description="Interact Oradea – where darkness meets the web."
@@ -39,8 +39,36 @@ export default function Home() {
       ></section>
 
       <section className="relative">
-        <div className="px-4 pt-10 mx-auto max-w-7xl md:pt-16">
-          <div className="w-full pb-5 mx-auto text-center md:w-11/12">
+        <div className="px-4 pt-10 max-w-[70%]  mx-auto md:pt-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 text-center items-center font-medium text-sky-700">
+            <div className="grid grid-cols-1 items-center">
+              <div className="font-black text-2xl ml-[10%] mr-[5%] md:text-left md:text-6xl text-left">
+                ABOUT US
+              </div>
+              <div className="pt-5 text-2xl ml-[10%] mr-[5%] text-left">
+                Clubul Interact Oradea este o organizație non-profit care aparține de clubul Rotary Oradea, cu peste 10 ani de activitate în crearea de noi oportunități pentru tinerii orădeni și dezvoltarea de noi proiecte, atât pentru comunitatea locală cât și pentru tinerii din toată țara.
+              </div>
+            </div>
+            {/* <div className="align-middle">
+              caca
+            </div> */}
+            <div className="row-span">
+              <div className="grid grid-rows-1 grid-cols-2">
+                <img src='about-us1.png' style={{ height: '90%' }} className="self-end floating-photo">
+                </img>
+                <img src='about-us2.png' style={{ height: '90%' }} className="justify-self-end floating-photo">
+                </img>
+              </div>
+
+              {/* <img src='about-us1.png' style={{ top: '30px', left: '0px', backgroundColor: 'black' }} className="size-2/5 floating-photo">
+              </img>
+              <img src='about-us2.png' style={{ top: '-30px', left: '0px', backgroundColor: 'black' }} className="size-2/5 floating-photo">
+              </img> */}
+              {/* <div style={{ paddingTop: '300px', backgroundColor: 'red' }}>
+              </div> */}
+            </div>
+          </div>
+          {/* <div className="w-full pb-5 mx-auto text-center md:w-11/12">
             <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 md:text-6xl">
               Bringing darkness
               <br />
@@ -72,7 +100,7 @@ export default function Home() {
                 </a>
               </Link>
             </div>
-          </div>
+          </div> */}
           <div className="relative w-full py-10 mx-auto text-center md:py-32 md:my-12 md:w-10/12">
             <div className="relative z-10">
               <a
