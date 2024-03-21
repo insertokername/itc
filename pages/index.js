@@ -64,10 +64,10 @@ export default function Home() {
               caca
             </div> */}
             <div className="row-span">
-              <div className="grid grid-rows-1 grid-cols-2 py-10 md:py-5">
-                <img src='about-us1.png' style={{ height: '90%' }} className="self-end floating-photo">
+              <div className="grid grid-rows-1 grid-cols-2 my-10 md:py-5">
+                <img src='about-us1.png' className="size-[90%] xl:mt-20 md:mt-14 mt-10 self-end floating-photo">
                 </img>
-                <img src='about-us2.png' style={{ height: '90%' }} className="justify-self-end floating-photo">
+                <img src='about-us2.png' className="size-[90%] justify-self-end floating-photo">
                 </img>
               </div>
 
@@ -136,10 +136,10 @@ export default function Home() {
           className="absolute inset-0 w-full h-full bg-bottom bg-no-repeat bg-cover -z-1"
         /> */}
       </section>
-      <Sponsors />
+      {/* <Sponsors />
       <Features />
-      {/*<Pricing />*/}
-      <Footer />
+      <Pricing />
+      <Footer /> */}
     </div >
   );
 }
