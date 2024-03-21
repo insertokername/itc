@@ -30,33 +30,30 @@ export default function Home() {
       </Head>
 
       <Header />
-      
+
       <section
         className="w-full h-screen bg-cover bg-center"
         style={{
           backgroundImage: "url(hero-bg.png)",
         }}
       >
-        {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 text-center items-center font-medium text-white">
-          <div className="grid grid-cols-1 items-center">
-            <div className="font-[800] text-2xl md:text-3xl md:ml-[10%] md:mr-[5%] md:text-left md:text-6xl text-left">
-              ABOUT US
-            </div>
-            <div className="pt-5 font-[400] text-xl md:text-2xl md:ml-[10%] md:mr-[5%] text-left">
-              Clubul Interact Oradea este o organizație non-profit care aparține de clubul Rotary Oradea, cu peste 10 ani de activitate în crearea de noi oportunități pentru tinerii orădeni și dezvoltarea de noi proiecte, atât pentru comunitatea locală cât și pentru tinerii din toată țara.
-            </div>
+        <div className="text-white max-w-[95%] md:max-w-[80%] mx-auto">
+          <div className="xl:ml-[3rem] xl:text-3xl xl:text-left text-xl text-center">
+            <h1 className="xl:text-8xl xl:pt-[30%] pt-[65%] text-4xl font-[700]">SERVICE ABOVE SELF</h1>
+            <p className="xl:mx-0 xl:max-w-[50%] py-6 mx-auto font-[350]">Trăiește experiențe unice, distrează-te și adu o schimbare în comunitatea locală alături de Interact Oradea!</p>
+            <button className="py-[2.6rem] px-[1.8rem] mt-5 bg-sky-900 bg-opacity-60 hover:bg-sky-700 hover:bg-opacity-65 text-white font-bold border border-sky-700 rounded">Check out our projects!</button>
           </div>
-        </div> */}
+        </div>
       </section>
 
       <section className="relative">
         <div className="px-4 pt-10 max-w-[95%] md:max-w-[80%]  mx-auto md:pt-16">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-2 text-center items-center font-medium text-sky-700">
             <div className="grid grid-cols-1 items-center">
-              <div className="font-[800] text-3xl xl:text-3xl xl:ml-[10%] xl:mr-[5%] mb:text-left xl:text-6xl text-left">
+              <div className="font-[800] text-3xl xl:text-3xl xl:ml-[2rem] xl:mr-[5%] mb:text-left xl:text-6xl text-left">
                 ABOUT US
               </div>
-              <div className="pt-5 font-[400] text-xl md:text-2xl xl:ml-[10%] xl:mr-[5%] text-left">
+              <div className="pt-5 font-[400] text-xl md:text-2xl xl:ml-[2rem] xl:mr-[5%] text-left">
                 Clubul Interact Oradea este o organizație non-profit care aparține de clubul Rotary Oradea, cu peste 10 ani de activitate în crearea de noi oportunități pentru tinerii orădeni și dezvoltarea de noi proiecte, atât pentru comunitatea locală cât și pentru tinerii din toată țara.
               </div>
             </div>
