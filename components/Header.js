@@ -11,7 +11,9 @@ export default function Header() {
 
   useEffect(() => {
     setHeight(ref.current.clientHeight)
-    setShoudBlur(window.scrollY > 0);
+    if (window && typeof window != 'undefined') {
+      setShoudBlur(window.scrollY > 0);
+    }
   })
 
   useEffect(() => {

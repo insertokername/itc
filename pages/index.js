@@ -39,13 +39,13 @@ export default function Home() {
       ></section>
 
       <section className="relative">
-        <div className="px-4 pt-10 max-w-[70%]  mx-auto md:pt-16">
+        <div className="px-4 pt-10 max-w-[95%] md:max-w-[80%]  mx-auto md:pt-16">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 text-center items-center font-medium text-sky-700">
             <div className="grid grid-cols-1 items-center">
-              <div className="font-black text-2xl ml-[10%] mr-[5%] md:text-left md:text-6xl text-left">
+              <div className="font-[800] text-2xl md:text-3xl md:ml-[10%] md:mr-[5%] md:text-left md:text-6xl text-left">
                 ABOUT US
               </div>
-              <div className="pt-5 text-2xl ml-[10%] mr-[5%] text-left">
+              <div className="pt-5 font-[400] text-xl md:text-2xl md:ml-[10%] md:mr-[5%] text-left">
                 Clubul Interact Oradea este o organizație non-profit care aparține de clubul Rotary Oradea, cu peste 10 ani de activitate în crearea de noi oportunități pentru tinerii orădeni și dezvoltarea de noi proiecte, atât pentru comunitatea locală cât și pentru tinerii din toată țara.
               </div>
             </div>
@@ -53,7 +53,7 @@ export default function Home() {
               caca
             </div> */}
             <div className="row-span">
-              <div className="grid grid-rows-1 grid-cols-2">
+              <div className="grid grid-rows-1 grid-cols-2 py-10 md:py-5">
                 <img src='about-us1.png' style={{ height: '90%' }} className="self-end floating-photo">
                 </img>
                 <img src='about-us2.png' style={{ height: '90%' }} className="justify-self-end floating-photo">
