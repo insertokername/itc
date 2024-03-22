@@ -32,7 +32,7 @@ export default function Home() {
       <Header />
 
       <section
-        className="w-full h-screen bg-cover bg-center"
+        className="w-full h-screen bg-cover bg-center min-h-[900px]"
         style={{
           backgroundImage: "url(hero-bg.png)",
         }}
@@ -80,7 +80,7 @@ export default function Home() {
       </section>
 
       <section
-        className="w-full h-screen bg-cover bg-center"
+        className="w-full h-screen bg-cover bg-center min-h-[900px]"
         style={{
           backgroundImage: "url(bg-our-lense.jpg)",
         }}
