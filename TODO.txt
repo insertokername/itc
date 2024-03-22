@@ -4,3 +4,11 @@ font itc
 hero text
 mobile design for header
 change seo stuff
+
+costume scroll bar
+bg interacts wierd with text (maybe add div bg)
+
+butonul "about us" sa mearga
+read more sa duca la about us
+lupa si galerie bara cautare
+darker through our lense
