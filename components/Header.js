@@ -38,8 +38,9 @@ export default function Header() {
     zIndex: '100',
     transition: "all 0.5s",
     transform: `translateY(${top}%)`,
-    'WebkitBackdropFilter': `blur(${shoudBlur ? 20 : 0}px)`,
-    'backdropFilter': `blur(${shoudBlur ? 20 : 0}px)`
+    backgroundColor: shoudBlur ? 'white' : '',
+    // 'WebkitBackdropFilter': `blur(${shoudBlur ? 20 : 0}px)`,
+    // 'backdropFilter': `blur(${shoudBlur ? 20 : 0}px)`
   };
 
   return (
