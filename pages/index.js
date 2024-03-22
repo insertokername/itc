@@ -50,13 +50,13 @@ export default function Home() {
         <div className="px-4 pt-10 max-w-[95%] md:max-w-[80%]  mx-auto md:pt-16">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-2 text-center items-center font-medium text-sky-700">
             <div className="grid grid-cols-1 items-center">
-              <div className="font-[800] text-3xl xl:text-3xl xl:ml-[2rem] xl:mr-[5%] mb:text-left xl:text-6xl text-left">
+              <div className="font-[800] text-4xl xl:text-3xl xl:ml-[2rem] xl:mr-[5%] mb:text-left xl:text-6xl text-left">
                 ABOUT US
               </div>
               <div className="pt-5 font-[400] text-xl md:text-2xl xl:ml-[2rem] xl:mr-[5%] text-left">
                 Clubul Interact Oradea este o organizație non-profit care aparține de clubul Rotary Oradea, cu peste 10 ani de activitate în crearea de noi oportunități pentru tinerii orădeni și dezvoltarea de noi proiecte, atât pentru comunitatea locală cât și pentru tinerii din toată țara.
               </div>
-              <button className="xl:text-2xl justify-self-start text-left py-[1rem] px-[1.8rem] xl:ml-[2rem] mt-5 bg-sky-900 bg-opacity-60 hover:bg-sky-700 hover:bg-opacity-65 text-white font-bold border border-sky-700 rounded">READ MORE...</button>
+              <button className="xl:text-2xl justify-self-start text-left py-[1rem] px-[1.8rem] xl:ml-[2rem] mt-5 bg-sky-900 bg-opacity-90 hover:bg-sky-700 hover:bg-opacity-70 text-white font-bold border border-sky-700 rounded">READ MORE...</button>
             </div>
             {/* <div className="align-middle">
               caca
