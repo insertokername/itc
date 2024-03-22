@@ -63,11 +63,11 @@ export default function Home() {
             {/* <div className="align-middle">
               caca
             </div> */}
-            <div className="row-span">
-              <div className="grid grid-rows-1 grid-cols-2 my-10 md:py-5">
-                <img src='about-us1.png' className="size-[90%] xl:mt-20 md:mt-14 mt-10 self-end floating-photo">
+            <div className="row-span pb-10">
+              <div className="grid grid-rows-1 grid-cols-2 my-10 md:py-5 gap-10">
+                <img src='about-us1.png' className="xl:size-[90%] xl:mt-14 xl:self-end">
                 </img>
-                <img src='about-us2.png' className="size-[90%] justify-self-end floating-photo">
+                <img src='about-us2.png' className="xl:size-[90%] justify-self-end">
                 </img>
               </div>
 
