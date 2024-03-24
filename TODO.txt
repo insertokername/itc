@@ -12,3 +12,5 @@ butonul "about us" sa mearga
 read more sa duca la about us
 lupa si galerie bara cautare
 darker through our lense
+
+bouncing navbar kys steve jobs
