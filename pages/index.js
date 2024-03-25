@@ -46,16 +46,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative" style={{ overflowX: 'hidden' }}>
-        <div className="px-4 pt-10 max-w-[95%] md:max-w-[80%]  mx-auto md:pt-16" >
+      <section className="relative">
+        <div className="px-4 pt-10 max-w-[95%] md:max-w-[70%]  mx-auto md:pt-16" >
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-2 text-center items-center font-medium text-sky-700">
             <div className="grid grid-cols-1 items-center">
-              <div className="font-[800] text-4xl xl:text-3xl xl:ml-[2rem] xl:mr-[5%] mb:text-left xl:text-6xl">
+              <div className="font-[800] text-4xl xl:text-3xl xl:ml-[2rem] xl:mr-[5%] mb:text-left xl:text-6xl xl:text-left">
                 ABOUT US
               </div>
-              <div className="pt-5 font-[400] text-xl md:text-2xl xl:ml-[2rem] xl:mr-[5%] text-left" style={{ position: 'relative' }}>
-                <div className="bg-white md:bg-transparent pl-0" style={{ zIndex: '0', position: 'absolute', left: '-20vw', width: '120vw', height: '100%' }}>
-                </div>
+              <div className="pt-5 font-[400] text-xl md:text-2xl xl:ml-[2rem] xl:mr-[5%] text-left" >
                 <p style={{ position:'relative', zIndex: '1' }}>Clubul Interact Oradea este o organizație non-profit care aparține de clubul Rotary Oradea, cu peste 10 ani de activitate în crearea de noi oportunități pentru tinerii orădeni și dezvoltarea de noi proiecte, atât pentru comunitatea locală cât și pentru tinerii din toată țara.</p>
               </div>
               <button className="xl:text-2xl justify-self-start text-left py-[1rem] px-[1.8rem] xl:ml-[2rem] mt-5 bg-sky-900 bg-opacity-90 hover:bg-sky-700 hover:bg-opacity-70 text-white font-bold border border-sky-700 rounded">READ MORE...</button>
@@ -88,7 +86,7 @@ export default function Home() {
           backgroundImage: "url(bg-our-lense.jpg)",
         }}
       >
-        <div className="text-white max-w-[95%] md:max-w-[80%] mx-auto">
+        <div className="text-white max-w-[95%] md:max-w-[70%] mx-auto">
           <div className="xl:ml-[3rem] xl:text-3xl xl:text-left text-xl text-center">
             <h1 className="xl:text-8xl xl:pt-[20%] pt-[65%] text-4xl font-[700]">THROUGH OUR LENSE...</h1>
             <p className="xl:mx-0 xl:max-w-[50%] mt-6 mx-auto font-[350]">...pentru că cele mai frumoase amintiri sunt cele în care am ajutat pe cineva fără să așteptăm nimic în schimb.</p>

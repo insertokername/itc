@@ -1,12 +1,9 @@
 backgrounds
     change wave color to deep blue
 font itc
-hero text
-mobile design for header
 change seo stuff
 
 costume scroll bar
-bg interacts wierd with text (maybe add div bg)
 
 butonul "about us" sa mearga
 read more sa duca la about us
@@ -14,3 +11,15 @@ lupa si galerie bara cautare
 darker through our lense
 
 bouncing navbar kys steve jobs
+
+Okay so
+1. atunci când apeși pe butonul de “about us” as trebui să apară strict rubrica aia / pagina de about us de pe canva- fără through our lense și așa. 
+
+2. Don’t forget da adaugi la home page și butonul de read more care să te ducă la toată pagina aia care e doar pt about us. 
+
+3. Is there anyway in care sa l poti face pe about us slightly bigger? Ca pe telefon se vede diferit decât pe design ul original în care pozele sunt lângă scris and all ( trimit eu SS imediat) - e okay tho ca oricum pe laptop se vede așa cum e în design-ul original deci cum poți tu.
+
+
+4. Don’t forget la bara de navigare de sus să adaugi și lupa și gallery.
+
+5. Poza de la through our lense- dacă ți o fac slightly darker, o poți schimba ? Ca nu se prea vede scrisul de pe laptop ( de pe telefon se vede oki)
