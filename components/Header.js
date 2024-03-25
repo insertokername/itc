@@ -20,9 +20,9 @@ export default function Header() {
     if (typeof window != 'undefined') { // i hate javascript i hate javascript i hate javascript i hate javascript
       const handleScroll = () => {
         const currentScrollPos = window.scrollY;
-        if (prevScrollpos > currentScrollPos ) {
+        if (currentScrollPos >= 0 && prevScrollpos > currentScrollPos ) {
           setTop(0);
-        } else {
+        } else if(currentScrollPos >=1){
           setTop(-100);
         }
         setPrevScrollpos(currentScrollPos);
