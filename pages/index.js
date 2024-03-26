@@ -47,7 +47,7 @@ export default function Home() {
       </section>
 
       <section className="relative">
-        <div className="px-4 pt-10 max-w-[95%] md:max-w-[70%]  mx-auto md:pt-16" >
+        <div className="px-4 pt-10 max-w-[82%] md:max-w-[70%]  mx-auto md:pt-16" >
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-2 text-center items-center font-medium text-sky-700">
             <div className="grid grid-cols-1 items-center">
               <div className="font-[800] text-4xl xl:text-3xl xl:ml-[2rem] xl:mr-[5%] mb:text-left xl:text-6xl xl:text-left">
@@ -99,6 +99,30 @@ export default function Home() {
       <Features />
       <Pricing />
       <Footer /> */}
+      <section className="relative">
+        <div className="px-4 pt-10 min-h-[900px] max-w-[80%] md:max-w-[70%]  mx-auto md:pt-16" >
+          <div className="text-center items-center font-medium text-sky-700">
+            <div className="font-[800] text-4xl xl:text-3xl xl:ml-[2rem] xl:mr-[5%] mb:text-left xl:text-6xl text-left">
+                KEEP UP WITH US<br/> ON SOCIAL MEDIA:
+            </div>
+            <div className="flex items-center pb-3">
+              <img src="insta-logo.png" className="xl:size-[120px] size-[80px] "></img>
+              <p className="font-[400] text-2xl md:text-3xl xl:ml-[2rem] xl:mr-[5%] text-left">@interact.oradea</p>
+            </div> 
+
+            <div className="flex items-center pb-3">
+              <img src="tt-logo.png" className="xl:size-[120px] size-[80px] "></img>
+              <p className="font-[400] text-2xl md:text-3xl xl:ml-[2rem] xl:mr-[5%] text-left">@interact.oradea</p>
+            </div> 
+            
+            <div className="flex items-center">
+              <img src="mail-logo.png" className="xl:size-[120px] size-[80px] "></img>
+              <p className="font-[400] text-2xl md:text-3xl xl:ml-[2rem] xl:mr-[5%] text-left">itcoradea@gmail.com</p>
+            </div> 
+          </div>
+        </div>
+      </section>
+
     </div >
   );
 }

@@ -6,9 +6,6 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        // 'waves-xl': 'url("../public/waves-XL.png")',
-        // 'waves-m': 'url("../public/waves-M.png")',
-        // 'nav': 'url("../public/bg-nav.png")',
         'periodic': 'url("../public/bg-periodic.png")',
       }
     },
