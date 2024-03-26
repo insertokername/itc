@@ -23,3 +23,11 @@ Okay so
 4. Don’t forget la bara de navigare de sus să adaugi și lupa și gallery.
 
 5. Poza de la through our lense- dacă ți o fac slightly darker, o poți schimba ? Ca nu se prea vede scrisul de pe laptop ( de pe telefon se vede oki)
+
+hamburger menu
+absolute navbar
+through our lense pe desktop putin la stanga
+abut us poze putin mai mari pe desktop
+toate seciuniile sa fie full screen width
+
+si fa nav baru cu logou in stanga
