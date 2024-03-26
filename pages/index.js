@@ -62,8 +62,8 @@ export default function Home() {
               caca
             </div> */}
             <div className="xl:mt-[0] mt-[2vh] justify-self-center">
-              <div className="grid grid-rows-1 grid-cols-2 my-10 md:py-5 xl:gap-10 gap-5">
-                <img src='about-us1.jpg' className="xl:mt-14 xl:self-end" >
+              <div className="flex flex-wrap md:grid md:grid-rows-1 grid-cols-2 my-10 md:py-5 xl:gap-10 gap-5">
+                <img src='about-us1.jpg' className="h-0 md:h-[auto] xl:mt-14 xl:self-end">
                 </img>
                 <img src='about-us2.jpg' className="justify-self-end">
                 </img>
