@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { NextSeo } from "next-seo";
 import Header from "../components/Header";
+import Headerold from "../components/Headerold";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -27,7 +28,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
+      {/* <Header /> */}
 
       <section
         className="w-full h-screen bg-cover bg-center min-h-[100vh]"
@@ -35,6 +36,7 @@ export default function Home() {
           backgroundImage: "url(hero-bg.png)",
         }}
       >
+        <Header />
         <div className="text-white max-w-[95vw] md:max-w-[85vw] mx-auto">
           <div className="xl:ml-[3rem] xl:text-3xl md:text-left md:text-2xl  text-xl text-center">
             <h1 className="xl:text-8xl pt-[37vh] md:text-5xl text-4xl font-[700]">SERVICE ABOVE SELF</h1>

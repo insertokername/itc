@@ -31,3 +31,6 @@ WAITING REVISION toate seciuniile sa fie full screen width
 
 WAITING REVISION TABLET SIZINGS
 CE DRACU FAC CU create hope pe telefon 😭😭😭😭😭
+
+fix navbar closing logic
+fix navbar positioning
