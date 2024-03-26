@@ -3,8 +3,6 @@ import Link from "next/link";
 import { NextSeo } from "next-seo";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Sponsors from "../components/Sponsors";
-import Features from "../components/Features";
 
 export default function Home() {
   return (
@@ -39,7 +37,7 @@ export default function Home() {
       >
         <div className="text-white max-w-[95vw] md:max-w-[85vw] mx-auto">
           <div className="xl:ml-[3rem] xl:text-3xl md:text-left md:text-2xl  text-xl text-center">
-            <h1 className="xl:text-8xl xl:pt-[33vh] pt-[40vh] md:text-5xl text-4xl font-[700]">SERVICE ABOVE SELF</h1>
+            <h1 className="xl:text-8xl pt-[37vh] md:text-5xl text-4xl font-[700]">SERVICE ABOVE SELF</h1>
             <p className="xl:mx-0 xl:max-w-[50%] py-6 mx-auto font-[350]">Trăiește experiențe unice, distrează-te și adu o schimbare în comunitatea locală alături de Interact Oradea!</p>
             <button className="py-[2.6rem] px-[1.8rem] mt-5 bg-sky-900 bg-opacity-60 hover:bg-sky-700 hover:bg-opacity-65 text-white font-bold border border-sky-700 rounded">CHECK OUT OUR PROJECTS!</button>
           </div>
@@ -58,9 +56,6 @@ export default function Home() {
               </div>
               <button className="text-xl md:text-2xl xl:text-3xl justify-self-start text-left py-[1rem] px-[1.8rem] xl:ml-[2rem] mt-5 bg-sky-900 bg-opacity-90 hover:bg-sky-700 hover:bg-opacity-70 text-white font-bold border border-sky-700 rounded">READ MORE...</button>
             </div>
-            {/* <div className="align-middle">
-              caca
-            </div> */}
             <div className="xl:mt-[0] mt-[2vh] justify-self-center">
               <div className="flex flex-wrap md:grid md:grid-rows-1 grid-cols-2 my-10 md:py-5 xl:gap-10 gap-5">
                 <img src='about-us1.jpg' className="h-0 md:h-[auto] xl:mt-14 xl:self-end">
@@ -68,13 +63,6 @@ export default function Home() {
                 <img src='about-us2.jpg' className="justify-self-end">
                 </img>
               </div>
-
-              {/* <img src='about-us1.png' style={{ top: '30px', left: '0px', backgroundColor: 'black' }} className="size-2/5 floating-photo">
-              </img>
-              <img src='about-us2.png' style={{ top: '-30px', left: '0px', backgroundColor: 'black' }} className="size-2/5 floating-photo">
-              </img> */}
-              {/* <div style={{ paddingTop: '300px', backgroundColor: 'red' }}>
-              </div> */}
             </div>
           </div>
         </div>
@@ -88,7 +76,7 @@ export default function Home() {
       >
         <div className="text-white max-w-[95vw] md:max-w-[85vw] mx-auto ">
           <div className="xl:ml-[3rem] xl:text-3xl xl:text-left text-xl text-center">
-            <h1 className="xl:text-8xl xl:pt-[31vh] pt-[40vh] md:text-5xl text-4xl font-[700]">THROUGH OUR LENSE...</h1>
+            <h1 className="xl:text-8xl pt-[31vh] md:text-5xl text-4xl font-[700]">THROUGH OUR LENSE...</h1>
             <p className="xl:mx-0 xl:max-w-[60%] md:max-w-[80%] mt-6 mx-auto font-[350] xl:text-4xl md:text-2xl">...pentru că cele mai frumoase amintiri sunt cele în care am ajutat pe cineva fără să așteptăm nimic în schimb.</p>
             <p className="xl:mx-0 xl:max-w-[50%] mt-5 mx-auto font-[350] xl:text-4xl md:text-2xl">-Byron Pulsifer</p>
             <button className="py-[2.6rem] px-[1.8rem] mt-11 bg-sky-900 bg-opacity-60 hover:bg-sky-700 hover:bg-opacity-65 text-white font-bold border border-sky-700 rounded">Check out our Gallery!</button>
@@ -138,7 +126,6 @@ export default function Home() {
                   12 <br /> <inline className="xl:text-[1.5rem]">ANI DE ACTIVITATE</inline>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
