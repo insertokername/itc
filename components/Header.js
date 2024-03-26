@@ -35,6 +35,7 @@ export default function Header() {
   }, [prevScrollpos]);
 
   const navbarStyle = {
+    position: 'fixed',
     zIndex: '100',
     transition: "all 0.5s",
     transform: `translateY(${top}%)`,
