@@ -53,10 +53,10 @@ export default function Home() {
               <div className="font-[800] text-4xl xl:text-3xl xl:ml-[2rem] xl:mr-[5%] mb:text-left xl:text-6xl xl:text-left">
                 ABOUT US
               </div>
-              <div className="pt-5 font-[400] text-xl md:text-2xl xl:ml-[2rem] xl:mr-[5%] text-left" >
-                <p style={{ position:'relative', zIndex: '1' }}>Clubul Interact Oradea este o organizație non-profit care aparține de clubul Rotary Oradea, cu peste 10 ani de activitate în crearea de noi oportunități pentru tinerii orădeni și dezvoltarea de noi proiecte, atât pentru comunitatea locală cât și pentru tinerii din toată țara.</p>
+              <div className="pt-5 font-[400] text-xl md:text-2xl xl:ml-[2rem] xl:mr-[5%] xl:text-left" >
+                <p style={{ position: 'relative', zIndex: '1' }}>Clubul Interact Oradea este o organizație non-profit care aparține de clubul Rotary Oradea, cu peste 10 ani de activitate în crearea de noi oportunități pentru tinerii orădeni și dezvoltarea de noi proiecte, atât pentru comunitatea locală cât și pentru tinerii din toată țara.</p>
               </div>
-              <button className="xl:text-2xl justify-self-start text-left py-[1rem] px-[1.8rem] xl:ml-[2rem] mt-5 bg-sky-900 bg-opacity-90 hover:bg-sky-700 hover:bg-opacity-70 text-white font-bold border border-sky-700 rounded">READ MORE...</button>
+              <button className="xl:text-2xl xl:justify-self-start justify-self-center text-left py-[1rem] px-[1.8rem] xl:ml-[2rem] mt-5 bg-sky-900 bg-opacity-90 hover:bg-sky-700 hover:bg-opacity-70 text-white font-bold border border-sky-700 rounded">READ MORE...</button>
             </div>
             {/* <div className="align-middle">
               caca
@@ -95,34 +95,54 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* <Sponsors />
-      <Features />
-      <Pricing />
-      <Footer /> */}
-      <section className="relative">
-        <div className="px-4 pt-10 min-h-[900px] max-w-[80%] md:max-w-[70%]  mx-auto md:pt-16" >
-          <div className="text-center items-center font-medium text-sky-700">
-            <div className="font-[800] text-4xl xl:text-3xl xl:ml-[2rem] xl:mr-[5%] mb:text-left xl:text-6xl text-left">
-                KEEP UP WITH US<br/> ON SOCIAL MEDIA:
-            </div>
-            <div className="flex items-center pb-3">
-              <img src="insta-logo.png" className="xl:size-[120px] size-[80px] "></img>
-              <p className="font-[400] text-2xl md:text-3xl xl:ml-[2rem] xl:mr-[5%] text-left">@interact.oradea</p>
-            </div> 
 
-            <div className="flex items-center pb-3">
-              <img src="tt-logo.png" className="xl:size-[120px] size-[80px] "></img>
-              <p className="font-[400] text-2xl md:text-3xl xl:ml-[2rem] xl:mr-[5%] text-left">@interact.oradea</p>
-            </div> 
-            
-            <div className="flex items-center">
-              <img src="mail-logo.png" className="xl:size-[120px] size-[80px] "></img>
-              <p className="font-[400] text-2xl md:text-3xl xl:ml-[2rem] xl:mr-[5%] text-left">itcoradea@gmail.com</p>
-            </div> 
+      <section className="relative">
+        <div className="px-4 pt-10 min-h-[700px] max-w-[80%] md:max-w-[70%]  mx-auto md:pt-16" >
+          <div className="grid grid-cols-1 text-center font-medium text-sky-700">
+            {/* <div className="grid justify-items-end"> */}
+            <div className="font-[800] text-5xl xl:ml-[2rem] xl:mr-[5%] mb:text-left xl:text-7xl text-left">
+              KEEP UP WITH US<br /> ON SOCIAL MEDIA:
+            </div>
+            <div className="xl:justify-self-end">
+              <div className="flex items-center pb-3">
+                <img src="insta-logo.png" className="xl:size-[120px] size-[100px] "></img>
+                <p className="font-[400] text-3xl md:text-3xl xl:ml-[2rem] xl:mr-[5%] text-left">@interact.oradea</p>
+              </div>
+
+              <div className="flex items-center pb-3">
+                <img src="tt-logo.png" className="xl:size-[120px] size-[100px] "></img>
+                <p className="font-[400] text-3xl md:text-3xl xl:ml-[2rem] xl:mr-[5%] text-left">@interact.oradea</p>
+              </div>
+
+              <div className="flex items-center">
+                <img src="mail-logo.png" className="xl:size-[120px] size-[100px] "></img>
+                <p className="font-[400] text-3xl md:text-3xl xl:ml-[2rem] xl:mr-[5%] text-left">itcoradea@gmail.com</p>
+              </div>
+            </div>
+            {/* </div> */}
           </div>
         </div>
       </section>
 
+      <section
+        className="w-full h-screen bg-cover bg-center min-h-[900px]"
+        style={{
+          backgroundImage: "url(bg-create-hope.jpg)",
+        }}
+      >
+        <div className="text-white max-w-[95%] md:max-w-[90%] mx-auto">
+          <div className="xl:ml-[3rem] xl:text-3xl xl:text-left text-xl text-center">
+            <h1 className="xl:text-8xl xl:pt-[10%] pt-[50%] text-4xl font-[700]">CREATE HOPE IN THE WORLD… </h1>
+            {/* <p className="xl:mx-0 xl:max-w-[50%] mt-6 mx-auto font-[350]">...pentru că cele mai frumoase amintiri sunt cele în care am ajutat pe cineva fără să așteptăm nimic în schimb.</p> */}
+            {/* <p className="xl:mx-0 xl:max-w-[50%] mt-5 mx-auto font-[350]">-Byron Pulsifer</p> */}
+            <div className="grid grid-cols-3 justify-items-center xl:text-2xl">
+              <div className="py-[1rem] px-[1.8rem] bg-sky-900 bg-opacity-90 text-white font-bold border border-sky-700 rounded">READ MORE...</div>
+              <div className="py-[1rem] px-[1.8rem] bg-sky-900 bg-opacity-90 text-white font-bold border border-sky-700 rounded">READ MORE...</div>
+              <div className="py-[1rem] px-[1.8rem] bg-sky-900 bg-opacity-90 text-white font-bold border border-sky-700 rounded">READ MORE...</div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div >
   );
 }
