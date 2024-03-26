@@ -1,5 +1,3 @@
-backgrounds
-    change wave color to deep blue
 font itc
 change seo stuff
 
@@ -8,9 +6,6 @@ costume scroll bar
 butonul "about us" sa mearga
 read more sa duca la about us
 lupa si galerie bara cautare
-darker through our lense
-
-bouncing navbar kys steve jobs
 
 Okay so
 1. atunci când apeși pe butonul de “about us” as trebui să apară strict rubrica aia / pagina de about us de pe canva- fără through our lense și așa. 
@@ -25,9 +20,14 @@ Okay so
 5. Poza de la through our lense- dacă ți o fac slightly darker, o poți schimba ? Ca nu se prea vede scrisul de pe laptop ( de pe telefon se vede oki)
 
 hamburger menu
-absolute navbar
-through our lense pe desktop putin la stanga
-abut us poze putin mai mari pe desktop
-toate seciuniile sa fie full screen width
-
+WAITING REVISION absolute navbar
 si fa nav baru cu logou in stanga
+WAITING REVISION through our lense pe desktop putin la stanga
+WAITING REVISION darker through our lense
+
+WAITING REVISION abut us poze putin mai mari pe desktop
+WAITING REVISION toate seciuniile sa fie full screen width
+
+
+WAITING REVISION TABLET SIZINGS
+CE DRACU FAC CU create hope pe telefon 😭😭😭😭😭
