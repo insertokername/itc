@@ -45,6 +45,7 @@ export default function Header() {
   };
 
   return (
+    
     <header ref={ref} className="sticky-nav w-full" style={navbarStyle}>
       <div className="grid grid-cols-1 justify-center max-w-xl p-2.5 mx-auto">{/*md:flex-row*/}
         <div>

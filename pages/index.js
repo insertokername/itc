@@ -36,10 +36,10 @@ export default function Home() {
           backgroundImage: "url(hero-bg.png)",
         }}
       >
-        <Header />
+        <Headerold />
         <div className="text-white max-w-[95vw] md:max-w-[85vw] mx-auto">
           <div className="xl:ml-[3rem] xl:text-3xl md:text-left md:text-2xl  text-xl text-center">
-            <h1 className="xl:text-8xl pt-[37vh] md:text-5xl text-4xl font-[700]">SERVICE ABOVE SELF</h1>
+            <h1 className="xl:text-8xl pt-[22vh] md:text-5xl text-4xl font-[700]">SERVICE ABOVE SELF</h1>
             <p className="xl:mx-0 xl:max-w-[50%] py-6 mx-auto font-[350]">Trăiește experiențe unice, distrează-te și adu o schimbare în comunitatea locală alături de Interact Oradea!</p>
             <button className="py-[2.6rem] px-[1.8rem] mt-5 bg-sky-900 bg-opacity-60 hover:bg-sky-700 hover:bg-opacity-65 text-white font-bold border border-sky-700 rounded">CHECK OUT OUR PROJECTS!</button>
           </div>
